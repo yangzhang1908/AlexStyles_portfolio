@@ -28,20 +28,6 @@ CSS3: For styling, layout, animations, and responsive design.
 Flexbox & Grid: For creating modern, flexible layouts.
 Media Queries: For implementing responsiveness across different devices.
 JavaScript: For interactive functionality, primarily for the portfolio modal.
-Setup and Installation
-To run this project locally, follow these steps:
-
-Clone the repository:
-Code-Snippet
-
-git clone [[https://github.com/your-username/your-repository-name.git](https://github.com/yangzhang1908/WebDev_Practice.git)](https://github.com/yangzhang1908/AlexStyles_portfolio.git)
-Navigate to the project directory:
-Bash
-
-cd AlexStyles_portfolio
-Open the website: Simply open the index.html file in your web browser of choice (e.g., Chrome, Firefox, Safari).
-Deployment on GitHub Pages
-To deploy this project and make it publicly accessible, you can use GitHub Pages:
 
 ## Activity 1: Foundational CSS & Styling
 
