@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Styles - Graphic Designer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Alex Styles</div>
+            <ul>
+                <li><a href="#about" title="Learn more about Alex">About Me</a></li>
+                <li><a href="#portfolio" title="View Alex's work">Portfolio</a></li>
+                <li><a href="#contact" title="Get in touch with Alex">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am a passionate graphic designer with a keen eye for modern aesthetics and a love for creating compelling visual stories. With a strong foundation in design principles and proficiency in the latest software, I specialize in branding, web design, and digital art. My goal is to collaborate with clients to bring their creative visions to life.</p>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" onclick="openModal('Project One', 'Detailed description of Project One.')">
+                        <img src="https://via.placeholder.com/300" alt="Project One Thumbnail">
+                        <div class="overlay"><h3>Project One</h3></div>
+                    </div>
+                    <div class="portfolio-item" onclick="openModal('Project Two', 'Detailed description of Project Two.')">
+                        <img src="https://via.placeholder.com/300" alt="Project Two Thumbnail">
+                        <div class="overlay"><h3>Project Two</h3></div>
+                    </div>
+                    <div class="portfolio-item" onclick="openModal('Project Three', 'Detailed description of Project Three.')">
+                        <img src="https://via.placeholder.com/300" alt="Project Three Thumbnail">
+                        <div class="overlay"><h3>Project Three</h3></div>
+                    </div>
+                    <div class="portfolio-item" onclick="openModal('Project Four', 'Detailed description of Project Four.')">
+                        <img src="https://via.placeholder.com/300" alt="Project Four Thumbnail">
+                        <div class="overlay"><h3>Project Four</h3></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Alex Styles. All Rights Reserved.</p>
+    </footer>
+
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3 id="modalTitle"></h3>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
